@@ -3,13 +3,13 @@ document.addEventListener('DOMContentLoaded', () => {
     let teacherPlanData = []; 
 
     const studentData = {
-        DP1: [ { name: "Yothna Masrouhi", photo: "https://cdn-icons-png.flaticon.com/512/4140/4140061.png", birthday: "9/2009" } ],
-        DP2: [ { name: "Isra Elalmi", photo: "https://cdn-icons-png.flaticon.com/512/4140/4140047.png", birthday: "3/2008" } ],
-        PEI1: [ { name: "Naya Sabbidine", photo: "https://cdn-icons-png.flaticon.com/512/4140/4140048.png", birthday: "2/2014" } ],
-        PEI2: [ { name: "Israa Alkattan", photo: "https://cdn-icons-png.flaticon.com/512/4140/4140050.png", birthday: "9/2013" }, { name: "Dina Tlili", photo: "https://cdn-icons-png.flaticon.com/512/4140/4140051.png", birthday: "12/2012" }, { name: "Lina Tlili", photo: "https://cdn-icons-png.flaticon.com/512/4140/4140052.png", birthday: "12/2012" }, { name: "Cynthia Fadlallah", photo: "https://cdn-icons-png.flaticon.com/512/4140/4140054.png", birthday: "12/2013" }, { name: "Neyla Molina", photo: "https://cdn-icons-png.flaticon.com/512/4140/4140049.png", birthday: "1/2014" } ],
-        PEI3: [ { name: "Jawahair Eshmawi", photo: "https://cdn-icons-png.flaticon.com/512/4140/4140055.png", birthday: "3/2012" } ],
-        PEI4: [ { name: "Yousr Letaief", photo: "https://cdn-icons-png.flaticon.com/512/4140/4140056.png", birthday: "6/2011" }, { name: "Sarah Aldebasy", photo: "https://cdn-icons-png.flaticon.com/512/4140/4140058.png", birthday: "7/2011" }, { name: "Maria Wahib", photo: "https://cdn-icons-png.flaticon.com/512/4140/4140059.png", birthday: "7/2011" } ],
-        PEI5: [ { name: "Badia Khaldi", photo: "https://cdn-icons-png.flaticon.com/512/4140/4140060.png", birthday: "12/2010" }, { name: "Luluwah Alghabashi", photo: "https://cdn-icons-png.flaticon.com/512/4140/4140062.png", birthday: "4/2010" } ]
+        DP1: [ { name: "Yothna Masrouhi", photo: "https://cdn-icons-png.flaticon.com/512/924/924874.png", birthday: "9/2009" } ],
+        DP2: [ { name: "Isra Elalmi", photo: "https://cdn-icons-png.flaticon.com/512/924/924869.png", birthday: "3/2008" } ],
+        PEI1: [ { name: "Naya Sabbidine", photo: "https://cdn-icons-png.flaticon.com/512/924/924870.png", birthday: "2/2014" } ],
+        PEI2: [ { name: "Israa Alkattan", photo: "https://cdn-icons-png.flaticon.com/512/924/924871.png", birthday: "9/2013" }, { name: "Dina Tlili", photo: "https://cdn-icons-png.flaticon.com/512/924/924872.png", birthday: "12/2012" }, { name: "Lina Tlili", photo: "https://cdn-icons-png.flaticon.com/512/924/924873.png", birthday: "12/2012" }, { name: "Cynthia Fadlallah", photo: "https://cdn-icons-png.flaticon.com/512/924/924875.png", birthday: "12/2013" }, { name: "Neyla Molina", photo: "https://cdn-icons-png.flaticon.com/512/924/924876.png", birthday: "1/2014" } ],
+        PEI3: [ { name: "Jawahair Eshmawi", photo: "https://cdn-icons-png.flaticon.com/512/924/924877.png", birthday: "3/2012" } ],
+        PEI4: [ { name: "Yousr Letaief", photo: "https://cdn-icons-png.flaticon.com/512/924/924878.png", birthday: "6/2011" }, { name: "Sarah Aldebasy", photo: "https://cdn-icons-png.flaticon.com/512/924/924879.png", birthday: "7/2011" }, { name: "Maria Wahib", photo: "https://cdn-icons-png.flaticon.com/512/924/924880.png", birthday: "7/2011" } ],
+        PEI5: [ { name: "Badia Khaldi", photo: "https://cdn-icons-png.flaticon.com/512/924/924881.png", birthday: "12/2010" }, { name: "Luluwah Alghabashi", photo: "https://cdn-icons-png.flaticon.com/512/924/924882.png", birthday: "4/2010" } ]
     };
     
     const translations = {
